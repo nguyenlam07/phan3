@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnboardAI | Quy trình Hội nhập</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <div class="logo-brand"><i class="fa-solid fa-sparkles"></i> OnboardAI</div>
+            <div class="text-muted small mb-3 px-2 text-uppercase" style="font-size: 11px; letter-spacing: 0.5px;">Không gian làm việc</div>
+            <a href="hr-dashboard.html" class="nav-link-custom"><i class="fa-solid fa-chart-pie"></i> Báo cáo tổng quan</a>
+            <a href="hr-employees.html" class="nav-link-custom"><i class="fa-solid fa-users"></i> Quản lý nhân viên</a>
+            <a href="hr-journeys.html" class="nav-link-custom active"><i class="fa-solid fa-route"></i> Quy trình hội nhập</a>
+            
+            <!-- Box Hỗ trợ ở dưới sidebar giống ảnh -->
+            <div class="mt-auto p-3 bg-white rounded-4 shadow-sm mt-5" style="border: 1px solid #eee;">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                    <div class="bg-primary text-white rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; font-size: 12px;">
+                        <i class="fa-solid fa-sparkles"></i>
+                    </div>
+                    <strong>Cần hỗ trợ?</strong>
+                </div>
+                <p class="text-muted small mb-2" style="font-size: 12px;">Khám phá hướng dẫn sử dụng OnboardAI.</p>
+                <a href="#" class="text-primary small fw-bold text-decoration-none">Tìm hiểu thêm</a>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="flex-grow-1 p-4 bg-light">
+            <!-- Header Tiêu đề -->
+            <div class="d-flex justify-content-between align-items-start mb-4">
+                <div>
+                    <h2 class="fw-bold mb-1">Thiết kế Quy trình Hội nhập</h2>
+                    <p class="text-muted mb-0 small">Onboarding Journeys · Xây dựng lộ trình phù hợp cho từng khối phòng ban.</p>
+                </div>
+                <button class="btn btn-primary px-3 py-2 rounded-3" style="background-color: var(--primary); border:none;"><i class="fa-solid fa-plus me-1"></i> Tạo quy trình mới</button>
+            </div>
+
+            <!-- List of Journeys (2 Card lớn song song giống ảnh) -->
+            <div class="row g-4">
+                <!-- Card 1: Khối Kỹ thuật -->
+                <div class="col-md-6">
+                    <div class="card-custom bg-white p-4 rounded-4 shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <div>
+                                <span class="badge bg-light text-primary mb-2 p-2 rounded-circle"><i class="fa-solid fa-sun fs-5"></i></span>
+                                <h4 class="fw-bold mb-1">Quy trình Khối Kỹ thuật (Dev/IT)</h4>
+                                <p class="text-muted small mb-3">Lộ trình dành cho nhân sự kỹ thuật và phát triển sản phẩm.</p>
+                            </div>
+                            <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill fw-normal" style="font-size: 12px;">Đang hoạt động</span>
+                        </div>
+
+                        <!-- Các chỉ số phụ -->
+                        <div class="d-flex gap-4 text-muted small pb-3 mb-3 border-bottom" style="font-size: 13px;">
+                            <span><strong>4</strong> bước</span>
+                            <span>•</span>
+                            <span><strong>12</strong> nhân sự</span>
+                            <span>•</span>
+                            <span><strong>14</strong> ngày</span>
+                        </div>
+
+                        <!-- Danh sách các bước chi tiết -->
+                        <div class="journey-steps mb-4">
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600;">1</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Chào mừng & hoàn thiện hồ sơ</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày đầu tiên</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600;">2</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Thiết lập tài khoản và môi trường</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 4</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600;">3</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Gặp gỡ mentor kỹ thuật</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 7</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="badge bg-light text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600;">4</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Hoàn thành nhiệm vụ đầu tiên</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 10</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nút Chỉnh sửa bước -->
+                        <button class="btn btn-outline-primary w-100 py-2 rounded-3 text-primary border-primary-subtle bg-light bg-opacity-50" style="border-style: dashed;"><i class="fa-solid fa-pen-to-square me-1"></i> Chỉnh sửa bước</button>
+                    </div>
+                </div>
+
+                <!-- Card 2: Khối Khách hàng / Sale -->
+                <div class="col-md-6">
+                    <div class="card-custom bg-white p-4 rounded-4 shadow-sm position-relative">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <div>
+                                <span class="badge bg-light text-warning mb-2 p-2 rounded-circle"><i class="fa-solid fa-sun fs-5"></i></span>
+                                <h4 class="fw-bold mb-1">Quy trình Khối Khách hàng / Sale</h4>
+                                <p class="text-muted small mb-3">Lộ trình dành cho đội ngũ kinh doanh và chăm sóc khách hàng.</p>
+                            </div>
+                            <span class="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill fw-normal" style="font-size: 12px;">Đang hoạt động</span>
+                        </div>
+
+                        <!-- Các chỉ số phụ -->
+                        <div class="d-flex gap-4 text-muted small pb-3 mb-3 border-bottom" style="font-size: 13px;">
+                            <span><strong>4</strong> bước</span>
+                            <span>•</span>
+                            <span><strong>8</strong> nhân sự</span>
+                            <span>•</span>
+                            <span><strong>10</strong> ngày</span>
+                        </div>
+
+                        <!-- Danh sách các bước chi tiết -->
+                        <div class="journey-steps mb-4">
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600; color: #d97706;">1</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Giới thiệu văn hóa & sản phẩm</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày đầu tiên</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600; color: #d97706;">2</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Đào tạo công cụ bán hàng</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 4</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-3">
+                                <div class="badge bg-light text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600; color: #d97706;">3</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Shadowing cùng quản lý</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 7</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="badge bg-light text-warning rounded-circle d-flex align-items-center justify-content-center" style="width: 28px; height: 28px; font-weight: 600; color: #d97706;">4</div>
+                                <div>
+                                    <div class="fw-bold text-dark">Thực hành với khách hàng</div>
+                                    <small class="text-muted" style="font-size: 11px;">Ngày 10</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nút Chỉnh sửa bước -->
+                        <button class="btn btn-outline-primary w-100 py-2 rounded-3 text-primary border-primary-subtle bg-light bg-opacity-50" style="border-style: dashed;"><i class="fa-solid fa-pen-to-square me-1"></i> Chỉnh sửa bước</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
